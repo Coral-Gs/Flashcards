@@ -1,0 +1,12 @@
+[
+  {
+    "asignatura": "Bases de datos",
+    "concepto": "Base de datos",
+    "definicion": "Un conjunto de datos que perteneces a un mismo contexto (o problema) y almacenados sistemáticamente para su posterior uso."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "concepto": "Sistema de información",
+    "definicion": "Es un conjunto de elementos destinados al tratamiento y la administración de datos e información, organizados y listos para su posterior uso, generados para cubrir una necesidad(objetivo)."
+  }
+]

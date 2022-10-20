@@ -1,0 +1,17 @@
+[
+  {
+    "asignatura": "Sistemas informáticos",
+    "concepto": "Sistema informático",
+    "definicion": "Es un conjunto de dispositivos, con al menos una unidad central de procesamiento o CPU, que estarán física y lógicamente conectados entre sí. Pueden estarlo a través de canales (modo local) o a través de diversos equipos o medios de transporte (modo remoto)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "concepto": "Objetivo de un sistema informático",
+    "definicion": "Dar soporte al procesado, almacenamiento, entrada y salida de datos"
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "concepto": "Elementos de un sistema informático",
+    "definicion": "1. Hardware: formado por aquellos elementos físicos. 2. Software: los programas y elementos intangibles. 3. Personal: usuarios. 4. Documentación: todos los manuales en formato físico o digital y la información que describe los procedimientos del sistema."
+  }
+]

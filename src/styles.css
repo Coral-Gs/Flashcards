@@ -1,0 +1,44 @@
+h1 {
+  color: #f5ebeb;
+  text-align: center;
+  padding: 20px;
+}
+
+a,
+button {
+  color: #f5ebeb;
+  background-color: #0416a2;
+  border-radius: 20px;
+  border-style: none;
+  font-size: 20px;
+  margin: 10px;
+  padding: 40px 30px;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+button:hover {
+  background: #2f50c8;
+  color: #f5ebeb;
+  cursor: pointer;
+}
+
+.container {
+  background: #070f4e;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.flashcards-app {
+  background: #2772db;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.subjects {
+  padding: 40px;
+  text-align: center;
+}
