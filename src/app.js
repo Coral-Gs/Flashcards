@@ -7,20 +7,26 @@
 //Cuando hago click 3 me muestra el concepto (1)
 //Cuando hago click 4 me muestra la definición (1)
 
-var clicks = 0;
-var button = document.querySelector("#myButton");
-var buttonText = [
-  "Start",
-  "Concept 1",
-  "Definition 1",
-  "Concept 2",
-  "Definition 2",
-  "Concept 3",
-  "Definition 3",
-  "And so on...",
-];
-function showContent() {
-  clicks += 1;
-  button.innerHTML = buttonText[clicks];
-}
-button.addEventListener("click", showContent);
+var clicks = -1;
+var button = document.querySelector("#ssii-button");
+
+fetch("./data-ssii.json")
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data);
+    const buttonText = data.reduce((acc, cur) => {
+      for (let key in cur) {
+        console.log(typeof key);
+        console.log(cur[key]);
+        if (key != "asignatura") {
+          acc.push(cur[key]);
+        }
+      }
+      return acc;
+    }, []);
+    function showContent() {
+      clicks += 1;
+      button.innerHTML = buttonText[clicks];
+    }
+    button.addEventListener("click", showContent);
+  });

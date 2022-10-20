@@ -26,6 +26,16 @@ button:hover {
   cursor: pointer;
 }
 
+.control-button {
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 10px;
+  position: relative;
+  bottom: -10px;
+  width: 100px;
+  height: 40px;
+}
+
 .container {
   background: #070f4e;
   border-radius: 20px;
