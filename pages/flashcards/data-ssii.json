@@ -1,17 +1,86 @@
 [
   {
     "asignatura": "Sistemas informáticos",
+    "unidad": "1",
     "concepto": "Sistema informático",
     "definicion": "Es un conjunto de dispositivos, con al menos una unidad central de procesamiento o CPU, que estarán física y lógicamente conectados entre sí. Pueden estarlo a través de canales (modo local) o a través de diversos equipos o medios de transporte (modo remoto)."
   },
   {
     "asignatura": "Sistemas informáticos",
+    "unidad": "1",
     "concepto": "Objetivo de un sistema informático",
     "definicion": "Dar soporte al procesado, almacenamiento, entrada y salida de datos"
   },
   {
     "asignatura": "Sistemas informáticos",
+    "unidad": "1",
     "concepto": "Elementos de un sistema informático",
     "definicion": "1. Hardware: formado por aquellos elementos físicos. 2. Software: los programas y elementos intangibles. 3. Personal: usuarios. 4. Documentación: todos los manuales en formato físico o digital y la información que describe los procedimientos del sistema."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Unidad Central de Proceso (UCP) - Procesador",
+    "definicion": "Elemento central del hardware de un SI donde se interpretan y ejecutan las instrucciones de los programas. Tiene integradas dos partes principales: Unidad de Control y Unidad Aritmético-Lógica."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Funciones del procesador",
+    "definicion": "1. Procesar las instrucciones. 2.Realizar cálculos. 3.Manejar el flujo de información -> obtener datos de la memoria y guardar los resultados de los cálculos en ella."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Procesador: CISC (Complex Instruction Set Computing)",
+    "definicion": "Tienen un conjunto de instrucciones muy amplio y permite operaciones complejas. 1 instrucción → varios ciclos de reloj. Consumo energético elevado. Ej: Intel x86, AMD x86."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Procesador: RISC (Reduced Instruction Set Computing)",
+    "definicion": "Tienen un conjunto de instrucciones pequeñas y simples que necesitan menos tiempo para ejecutarse.1 instrucción → 1 ciclo de reloj. Menor consumo energético. Ej: Apple, Motorola, IBM, PowerPC."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Unidad de control (UC)",
+    "definicion": "Se encarga de dirigir y coordinar todos los elementos del ordenador."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Unidad aritmético-lógica (UAL)",
+    "definicion": "Se encarga de realizar las operaciones aritméticas (cálculos matemáticos) y lógicas (comparativas)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": " Procesador: CISC (Complex Instruction Set Computing)",
+    "definicion": "Tienen un conjunto de instrucciones pequeñas y simples que necesitan menos tiempo para ejecutarse.1 instrucción → 1 ciclo de reloj. Menor consumo energético. Ej: Apple, Motorola, IBM, PowerPC."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Dispositivos de entrada",
+    "definicion": "Sirven para introducir información en el ordenador: teclado, ratón, escáner, micrófono...etc. ."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Dispositivos de salida",
+    "definicion": "Sirven para obtener información que ha sido procesada por el ordenador: monitor, impresora, plotter, altavoces…etc."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Dispositivos de almacenamiento",
+    "definicion": "Utilizados tanto para guardar como para recuperar información, también son considerados como dispositivos de entrada/salida: disco duro (HDD / SSD), lector de tarjetas de memoria, disqueteras...."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "HDD (Hard Disk Drive) - Unidad de disco duro",
+    "definicion": "dispositivo de almacenamiento de datos con un sistema de grabación magnética para almacenar y recuperar archivos digitales. Se compone de uno o más platos o discos rígidos de aluminio o cristal."
   }
 ]

@@ -1,7 +1,7 @@
 h1 {
   color: #f5ebeb;
   text-align: center;
-  padding: 20px;
+  padding: 20px 20px;
 }
 
 a,
@@ -27,13 +27,20 @@ button:hover {
 }
 
 .control-button {
+  background-color: #2f50c8;
   border-radius: 10px;
   font-size: 12px;
   padding: 10px;
   position: relative;
-  bottom: -10px;
+  bottom: -30px;
   width: 100px;
   height: 40px;
+}
+
+.control-button:hover {
+  background: #0416a2;
+  color: #f5ebeb;
+  cursor: pointer;
 }
 
 .container {

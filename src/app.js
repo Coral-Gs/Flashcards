@@ -18,7 +18,7 @@ fetch("./data-ssii.json")
       for (let key in cur) {
         console.log(typeof key);
         console.log(cur[key]);
-        if (key != "asignatura") {
+        if (key != "asignatura" && key != "unidad") {
           acc.push(cur[key]);
         }
       }
