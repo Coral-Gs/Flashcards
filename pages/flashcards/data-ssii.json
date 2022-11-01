@@ -3,24 +3,30 @@
     "asignatura": "Sistemas informáticos",
     "unidad": "1",
     "concepto": "Sistema informático",
-    "definicion": "Es un conjunto de dispositivos, con al menos una unidad central de procesamiento o CPU, que estarán física y lógicamente conectados entre sí. Pueden estarlo a través de canales (modo local) o a través de diversos equipos o medios de transporte (modo remoto)."
+    "definicion": "Es un conjunto de dispositivos con al menos una unidad central de procesamiento (CPU), que están física y lógicamente conectados entre sí a través de canales (modo local) o a través de diversos equipos o medios de transporte (modo remoto)."
   },
   {
     "asignatura": "Sistemas informáticos",
     "unidad": "1",
     "concepto": "Objetivo de un sistema informático",
-    "definicion": "Dar soporte al procesado, almacenamiento, entrada y salida de datos"
+    "definicion": "Dar soporte al procesado, almacenamiento, entrada y salida de datos."
   },
   {
     "asignatura": "Sistemas informáticos",
     "unidad": "1",
     "concepto": "Elementos de un sistema informático",
-    "definicion": "1. Hardware: formado por aquellos elementos físicos. 2. Software: los programas y elementos intangibles. 3. Personal: usuarios. 4. Documentación: todos los manuales en formato físico o digital y la información que describe los procedimientos del sistema."
+    "definicion": "1. Hardware: dispositivos y elementos físicos. 2. Software: programas y elementos intangibles. 3. Personal: usuarios. 4. Documentación: manuales en formato físico o digital y toda información que describe los procedimientos del sistema."
   },
   {
     "asignatura": "Sistemas informáticos",
     "unidad": "1",
-    "concepto": "Unidad Central de Proceso (UCP) - Procesador",
+    "concepto": "Arquitectura de von Neumann",
+    "definicion": "Creada en 1946 se compone de cuatro unidades básicas conectadas permanentemente: Unidad de Control (UC), Unidad aritmético-lógica (UAL), Unidad de memoria y Unidad de entrada-salida. Esta tecnología sigue vigente en la actualidad."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Unidad Central de Proceso (UCP/CPU) - Procesador",
     "definicion": "Elemento central del hardware de un SI donde se interpretan y ejecutan las instrucciones de los programas. Tiene integradas dos partes principales: Unidad de Control y Unidad Aritmético-Lógica."
   },
   {
@@ -56,12 +62,6 @@
   {
     "asignatura": "Sistemas informáticos",
     "unidad": "1",
-    "concepto": " Procesador: CISC (Complex Instruction Set Computing)",
-    "definicion": "Tienen un conjunto de instrucciones pequeñas y simples que necesitan menos tiempo para ejecutarse.1 instrucción → 1 ciclo de reloj. Menor consumo energético. Ej: Apple, Motorola, IBM, PowerPC."
-  },
-  {
-    "asignatura": "Sistemas informáticos",
-    "unidad": "1",
     "concepto": "Dispositivos de entrada",
     "definicion": "Sirven para introducir información en el ordenador: teclado, ratón, escáner, micrófono...etc. ."
   },
@@ -74,13 +74,587 @@
   {
     "asignatura": "Sistemas informáticos",
     "unidad": "1",
-    "concepto": "Dispositivos de almacenamiento",
-    "definicion": "Utilizados tanto para guardar como para recuperar información, también son considerados como dispositivos de entrada/salida: disco duro (HDD / SSD), lector de tarjetas de memoria, disqueteras...."
+    "concepto": "Dispositivos de almacenamiento ",
+    "definicion": "Dispositivos para guardar y recuperar información. También se consideran dispositivos de entrada/salida: disco duro (HDD / SSD), lector de tarjetas de memoria, disqueteras...."
   },
   {
     "asignatura": "Sistemas informáticos",
     "unidad": "1",
     "concepto": "HDD (Hard Disk Drive) - Unidad de disco duro",
-    "definicion": "dispositivo de almacenamiento de datos con un sistema de grabación magnética para almacenar y recuperar archivos digitales. Se compone de uno o más platos o discos rígidos de aluminio o cristal."
+    "definicion": "Dispositivo de almacenamiento de datos con un sistema de grabación magnética para almacenar y recuperar archivos digitales. Se compone de uno o más platos o discos rígidos de aluminio o cristal."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Chasis, caja o torre",
+    "definicion": "Recinto metálico o de plástico que contiene los componentes principales del ordenador y cuya función fundamental es la de su protección."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Tipos de chasis",
+    "definicion": " A. Semitorre ATX: el más usado por coste muy bajo y posibilidades de expansión. B. Torre ATX y EATX: muy usado cuando se necesitan muchas bahías. C: Micro-ATX: Este modelo de caja ocupa muy poco espacio, lo que significa que suelen llevar únicamente una bahía externa. D: Mini-ITX: Suelen llevar una bahía de formatos slim (en portátiles) para lectores ópticos al igual que un alojamiento para un disco duro portátil. Solo soporta placas del tipo mini-ITX. No se pueden expandir."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Barebone",
+    "definicion": "Ordenador reducido a únicamente lo esencial para que ocupe poco espacio."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Refrigeración",
+    "definicion": "Es un factor determinante en la durabilidad del equipo así como en el aprovechamiento óptimo de sus prestaciones. Existen dos formas básicas: refrigeración por aire / sistemas de ventilación o refrigeración líquida/ watercooling."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Programa informático",
+    "definicion": "Conjunto de instrucciones escritas secuencialmente para realizar una tarea específica en un ordenador."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Placa Base (mainboard)",
+    "definicion": "Es una gran tarjeta de circuito impreso donde se conectan el resto de componentes. Es un componente integrador."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Elementos de una Placa Base",
+    "definicion": "1. El circuito impreso. 2. Zócalo del procesador o socket. 3. Zócalos de memoria. 4. Memoria caché. 5. Slots de Buses. 6. Chipset. 7. BIOS. 8. Batería o pila. 9. Otros componentes (conectores de alimentación, el reloj de tiempo real, reguladores de tensión y condensadores, jumpers, conectores de pin y controladores)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Circuito impreso",
+    "definicion": "PCB (Printed Circuit Board), es un soporte mecánico que conecta componentes electrónicos mediante pistas de material conductor grabadas en hojas de cobre laminadas encima de un sustrato de propiedades no conductoras."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Zócalo del procesador o socket",
+    "definicion": "Lugar donde se coloca el procesador. Los formatos de zócalos actuales más empleados son PGA (utilizado por AMD) y LGA (utilizado por Intel)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Zócalos de memoria",
+    "definicion": "Las placas base suelen tener entre 1 y 8 zócalos para la inserción de módulos de memoria SIMM o DIMM (depende del chipset) ."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Memoria caché",
+    "definicion": "Almacena los datos que se prevé que más se van a usar, por lo que acelera el rendimiento (más rápida que la RAM). Actualmente va integrada en el procesador."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Slots de Buses",
+    "definicion": "Ranuras que sirven para aumentar las capacidades del sistema en las que se insertan tarjetas controladoras de entrada y salida (los tipos más usados son PCI y PCI-Express)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Chipset",
+    "definicion": "Conjunto de circuitos integrados diseñados a partir de una arquitectura de procesador determinada que permite comunicar la placa donde reside y los componentes que a esta se conectan con el procesador. En la actualidad está formada por un par de chips denominados NorthBridge (puente norte) y SouthBridge (puente sur)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "BIOS",
+    "definicion": "(Basic Input Output System) es un conjunto de rutinas básicas que permiten la entrada y salida al sistema, además de permitir configurar determinados parámetros mediante una RAM CMOS. Tiene un papel importante justo antes de que el sistema operativo tome el control del equipo ya que identifica los componentes principales (RAM, microprocesador, chipset, unidades de disco, etc.) y le proporciona acceso y control a todos ellos. Es una memoria volátil por lo que tiene que estar alimentada permanentemente con una batería o pila."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Batería o pila",
+    "definicion": "Suministra corriente para permitir guardar cierta información cuando el equipo no está alimentado."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Procesador/Microprocesador",
+    "definicion": "Es un circuito integrado compuesto por millones de transistores que componen algunos o todos los elementos de una CPU (una CPU puede estar soportada por varios microprocesadores). Se encarga de llevar a cabo todo el procesamiento del ordenador y por ello es considerado el cerebro del mismo."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Núcleo/core",
+    "definicion": "Porción del procesador que lleva a cabo todas las actividades de una CPU real (algunos tienen varios núcleos)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Parámetros de un Microprocesador",
+    "definicion": "El rendimiento de un procesador se puede medir mediante parámetros como la frecuencia de reloj, la velocidad de bus o las prestaciones de la memoria caché."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Frecuencia de reloj",
+    "definicion": "Regula el ritmo de trabajo del procesador. Indica la frecuencia a la cual los transistores del procesador conmutan eléctricamente (abren y cierran el flujo de la corriente eléctrica). Su valor se ha establecido entre los 2-4 GHz, ya que no se han requerido frecuencias más altas para aumentar la capacidad de procesamiento y se han optimizado el resto de parámetros."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Velocidad de bus",
+    "definicion": "Las prestaciones del bus del procesador están determinadas por el ancho del mismo (64 bits normalmente) y su velocidad, que está también relacionada con la de otros buses como el de memoria, PCI y PCI- Express."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Disipación de calor",
+    "definicion": "La refrigeración de los procesadores es sumamente importante para su rendimiento."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Overclocking",
+    "definicion": "Es el aumento de la velocidad del procesador por encima del establecido en el estándar de fábrica. Se consigue un rendimiento extra pero más consumo energético y más calor."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Chipset",
+    "definicion": "Conjunto de procesadores que se sitúan en la placa base y que están pensados para que funcionen como si fueran únicos. Cada uno tiene una misión específica, por lo que son los responsables de la comunicación entre los demás elementos del equipo informático. Puente Norte-Puente Sur."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "El Northbridge (Puente Norte)",
+    "definicion": "Situado en la parte norte de la placa, cerca del CPU y memoria. Gestiona la memoria, comunicación con el procesador, los puertos gráficos (AGP) y la comunicación con los demás componentes del equipo a través del Southbridge."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "El Southbridge (Puente Sur)",
+    "definicion": "Input-output controller hub, controla los elementos de entrada y salida del equipo y algunas otras funcionalidades de baja velocidad. La conexión a la CPU es a través del Northbridge por DMI (Direct Media Interface). Controla la admin de potencia eléctrica, BIOS, bus PCI, bus ISA, controlador DMA, controlador SATA o PATA, controlador de interrupciones, interfaz de sonido AC97, puente LPC, reloj en Tiempo Real, soporte Ethernet, soporte RAID y soporte USB."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": " Tarjetas de expansión",
+    "definicion": "Son dispositivos con circuitos integrados que se conectan en ranuras de expansión de la placa base con el fin de ampliar la capacidad del ordenador (tarjeta de red, tarjeta de sonido, tarjeta gráfica, etc.)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Tarjeta Gráfica",
+    "definicion": "Procesa los datos que provienen de la CPU y los convierte en información compresible y representable en un dispositivo de salida como podría ser un monitor. Las GPU (Graphics Proccessing Unit, procesador de tarjetas gráficas) también son tarjetas gráficas integradas en la placa base que aligeran el trabajo del procesador central."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Antialiasing",
+    "definicion": "Es una de las técnicas empleadas por las tarjetas gráficas en la mejora de la imagen que consiste en el suavizado de los bordes de los objetos, importante para obtener imágenes realzadas."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Periféricos/dispositivos de entrada-salida",
+    "definicion": "Todo aquel dispositivo que se puede conectar al sistema y que transmita o reciba información. Tienen una parte mecánica y una parte electrónica."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Driver / controlador de dispositivos",
+    "definicion": "Programa que facilita la comunicación entre el Sistema Operativo y el periférico, abasteciendo a la CPU de instrucciones para poder comunicarse con el nuevo dispositivo."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Periféricos de entrada",
+    "definicion": "Introducen información en el ordenador (teclado, ratón, detectores ópticos, escáner, micrófono…)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Periféricos de salida",
+    "definicion": "Muestran información generada o contenida en el ordenador (monitor, impresora, altavoz, etc.)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Periféricos de E/S o mixtos",
+    "definicion": "Incluyen en un solo dispositivo elementos para dar la entrada y salida de información (pantalla táctil, impresora multifunción, cámara ip, etc.)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Periféricos de comunicación",
+    "definicion": "Dentro de la categoría de entrada/ salida serían el modem, switch, router, etc."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Periféricos de almacenamiento",
+    "definicion": "Dentro de la categoría de E/S son los dispositivos lectores/grabadores y soporte de CD, DVD, Blu-Ray."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Fuente de alimentación",
+    "definicion": "Transforma la corriente eléctrica alterna procedente del sistema eléctrico en corriente continua, en un voltaje que sea más adecuado para los componentes del ordenador. Suelen incluirse con consumo inteligente, cumpliendo la norma Energy Star (eficiencia energética)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "PFC (Power Factor Correction)",
+    "definicion": "Es el factor de corrección de potencia (activo o no). Las fuentes con active PFC son mucho más eficientes (95% o incluso superior), con mayor calidad de la corriente y la reducción de la emisión de interferencias electromagnéticas."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Eficiencia de la fuente de alimentación",
+    "definicion": "La eficiencia es dada por el fabricante, más de un 80% o 90% suelen ser valores aceptables."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Nivel de ruido de la fuente de alimentación",
+    "definicion": "Las fuentes silenciosas poseen unos ventiladores de mayor calidad y de ahí su bajo nivel sonoro."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Conectores SATA de la fuente de alimentación",
+    "definicion": "Cuantos más conectores SATA incorpore mejor, para evitar el uso de adaptadores (actualmente todos los discos duros y lectores son SATA)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Single fan / Dual fan",
+    "definicion": "Es el número de ventiladores de la fuente de alimentación."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Conector P1",
+    "definicion": "Es un conector ATX de la fuente de alimentación. La placa base controla el encendido y apagado de la fuente."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Conector P4 / Conector ATX de 12V",
+    "definicion": "Introducido por Intel para Pentium 4, reservado para la alimentación del procesador exclusivamente, sin él es imposible iniciar el PC."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Conector Molex",
+    "definicion": "Se emplea para alimentar a los discos duros y unidades de CD y DVD y está formado por cuatro pares de cables."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Conector Mini",
+    "definicion": "Alimenta la disquetera."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Conector de alimentación Serial ATA",
+    "definicion": "Alimenta a los discos duros y unidades de almacenamiento Serial ATA."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Conector de alimentación PCI-Express",
+    "definicion": "Se utilizan para tarjetas gráficas que necesitan en la actualidad alimentación directa del bloque principal (a veces incluso dos)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Red informática",
+    "definicion": "Es un conjunto de equipos informáticos conectados entre sí mediante dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información y recursos."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Ventajas de las Redes de Datos",
+    "definicion": "1. Compartir recursos e información. 2. Aumentar las posibilidades de colaboración. 3. Facilitar la gestión centralizada. 4. Reducir costes."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Tipos de redes",
+    "definicion": "1. Por direccionalidad de la transmisión. 2. Por alcance o extensión. 3. Por las funciones de sus componentes. 4. Por el tipo de conexión. 5. Por el grado de difusión."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Direccionalidad de la transmisión Simplex",
+    "definicion": "La comunicación se realiza en una única orientación. Emisor emite, receptor recibe (ej. la radio)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Direccionalidad de la transmisión Semiduplex (half dúplex)",
+    "definicion": "La comunicación se sucede en ambos sentidos, pero nunca de forma simultánea (ej. walkie-talkie)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Direccionalidad de la transmisión Dúplex (full dúplex)",
+    "definicion": "La comunicación existe en ambos sentidos y de manera simultánea. Las redes de ordenadores funcionan de esta forma."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Red de área personal o PAN",
+    "definicion": "Personal área network. Red de ordenadores que normalmente se usa para una comunicación entre los dispositivos del ordenador cercanos a una persona."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Red de área local o LAN",
+    "definicion": "Local area network. Red que está limitada a un área en concreto, relativamente pequeña que puede tener las mayores velocidades. Es el componente principal cuando se crean redes más grandes."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Red de área de campus o CAN",
+    "definicion": "Red de ordenadores que conecta redes LAN a través de una zona geográfica limitada."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Red de área metropolitana o MAN",
+    "definicion": "Metropolitan area network. Red con mayor velocidad (banda ancha) que abarca un área geográfica amplia. Son redes que limitan extensiones relativamente grandes, y que necesitan componentes adicionales a los que usaría una red local."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Red de área amplia o WAN",
+    "definicion": "Wide area network. Redes informáticas que se abarcan una área geográfica extensa, como las redes de telemáticas que son las responsables de permitir el uso de Internet. Internet puede considerarse como una enorme red WAN."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Redes de igual a igual o entre iguales",
+    "definicion": "Redes peer-to-peer, son redes que no usan ordenadores que estén a cargo del funcionamiento de la red. Cada ordenador debe controlar su propia información y también puede funcionar como cliente o servidor según sea necesario."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Redes cliente-servidor",
+    "definicion": "Redes basadas en uno o varios servidores que darán servicio a los demás ordenadores que se pueden considerar clientes. Estas redes están pensadas para mejorar la gestión centralizada. Para generar redes de este tipo se necesitan sistemas operativos de tipo servidor."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Redes cableadas",
+    "definicion": "Redes que usan distintos tipos de cables para conectar los ordenadores."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Redes inalámbricas",
+    "definicion": "Se comunican sin cables."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Intranet",
+    "definicion": "Red de ordenadores que utiliza alguna tecnología de red privada, por lo que no comparte sus recursos con las demás redes, salvo que se autentifiquen, o cumplan unas medidas determinadas."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Internet",
+    "definicion": "Es un conjunto no centralizado de redes de comunicación conectadas que utilizan los protocolos TCP/IP, garantizando que las redes físicas heterogéneas que la componen funcionen como una red lógica única de alcance mundial."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Servidor",
+    "definicion": "Es un ordenador en red que se encarga de proveer servicios a otros ordenadores que son denominados clientes. También se trata de la aplicación informática o programa que desempeña algunas funciones en beneficio de otras aplicaciones a las que llamamos clientes."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Estación de Trabajo",
+    "definicion": "Workstation. Es un equipo de alto rendimiento para trabajo técnico o científico. Cuando un ordenador es conectado a una red, el primero se transforma en un nodo de la última y se puede tratar como una estación de trabajo o cliente."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Tarjeta de conexión a la red",
+    "definicion": "Es una tarjeta de interfaz de red que soporta un esquema de red concreto, como Ethernet, ArcNet o Token Ring. Necesita programas controladores que permitan al sistema operativo unirlo con sus protocolos y características a nivel físico."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Repetidor",
+    "definicion": "Dispositivo electrónico que recibe una señal débil o de bajo nivel y la reenvía con un nivel de potencia más alto, de modo que pueda abarcar distancias más largas con poca o ninguna degradación."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Bridge",
+    "definicion": "Dispositivo de interconexión de redes de ordenadores que trabajan en la capa 2 (nivel de enlace de datos) del modelo OSI. Interconecta dos segmentos de red (o divide una red en segmentos) haciendo la transmisión de datos entre redes, basada en la dirección física de destino de cada paquete. Como si fuera una sola red, utilizando el mismo protocolo para el establecimiento de red. Para hacer el bridging o interconexión de más de 2 redes, se utilizan los switch."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Hub",
+    "definicion": "Dispositivo que reúne el cableado de una red y tiene la posibilidad de ampliarla. El equipo recibe una señal y repite esta señal transmitiéndola por sus diferentes puertos. Hub pasivo (no necesita energía eléctrica), hub activo (necesita alimentación), inteligente o smart hub (activos que tienen microprocesador)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Switch",
+    "definicion": "Dispositivo digital con una función lógica de conectar redes de ordenadores que trabaja en la capa 2 (nivel de enlace de datos) del modelo OSI. Tiene la función de interconectar dos o más segmentos de red (como los bridges), pasando datos de un segmento a otro guiados por la dirección MAC de destino de las tramas en la red."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Router",
+    "definicion": "Es un enrutador, elemento que marca el camino más adecuado para enviar el mensaje en una red completa. Los datos son enviados dependiendo del tipo de protocolo con el cual ha sido programado. Cuenta con un procesador y mucha capacidad en sus memorias."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Brouters",
+    "definicion": "Dispositivo de interconexión de redes de ordenadores que trabaja como un bridge (puente de red) y como un enrutador. Un brouter tiene la posibilidad ser configurado para trabajar como bridge para parte del tráfico de red, y como enrutador para los demás."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Firewall",
+    "definicion": "Elemento de seguridad cuya función es filtrar el tráfico de red que le llega. Es un cortafuegos que puede separar un ordenador de todos los demás ordenadores de la red, excepto los que nos interesen que tengan permiso para comunicarse con él."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Par Trenzado",
+    "definicion": "Cableado de dos hilos de cobre trenzado que están aislados de manera independiente y trenzados entre sí con una capa aislante externa. Tecnología bien estudiada, instalación sencilla y rápida, emisión de señales al exterior mínima, más inmunidad a las interferencias y corrosión. Conector RJ45 (para tarjetas de red tipo Ethernet)."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Cable Coaxial",
+    "definicion": "Compuesto de un hilo conductor de cobre recubierto por una malla trenzada plana que tiene funciones de tierra. Soporta comunicaciones en banda ancha y en banda base, útil para varias señales, tecnología bien estudiada. Conector BNC."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Fibra óptica",
+    "definicion": "Permite transmitir información a gran velocidad y no permite la intervención de las líneas, como la señal es transmitida a través de luz, hay muy pocas posibilidades de interferencias de tipo eléctrico o emisión de señal. Inmunidad frente a interferencias, soporta mayores distancias, más caro. Conectores ST y SC."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Software de red",
+    "definicion": "Son los programas que se hacen necesarios para que las redes de ordenadores funcionen. Hacen posible la comunicación entre los ordenadores, permiten compartir recursos (software y hardware) y ayudan a controlar la seguridad de recursos."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Topologías de conexión",
+    "definicion": "En bus, en anillo, en estrella, en árbol, en malla, doble anillo, mixta y totalmente conexa."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Red de anillo",
+    "definicion": "Topología de red en la que los equipos se conectan en forma de anillo. Cada equipo está conectado al siguiente y así de manera consecutiva hasta que el último se conecta con el primero. Si algún equipo sufre una caída, la comunicación de toda la red se pierde."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Red de árbol",
+    "definicion": "Topología de red en la que los equipos están colocados formando un árbol. Es como una serie de redes en estrella conectadas entre sí. Tiene un cable principal (backbone) al que están conectadas las redes individuales en bus. Un fallo de un equipo no implica interrupción en las comunicaciones."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Red en malla",
+    "definicion": "Topología en red en la que cada equipo está conectado a uno o varios de los otros nodos. Se pueden llevar mensajes de un equipo a otro por distintos caminos. Si está completamente conectada no puede haber interrupción en las comunicaciones. Es la más eficiente en cuanto a rendimiento, aunque es inviable en la mayor parte de los casos porque es muy cara de implementar y compleja de mantener o ampliar."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Red en bus",
+    "definicion": "Topología de red en la que todos los equipos están conectados a un único canal de comunicaciones a través de derivadores. Las estaciones usan este canal para comunicarse con el resto. Solo una ruptura de cable causaría una interrupción en las comunicaciones."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Red en estrella",
+    "definicion": "Topología de red en la que los ordenadores están conectados de manera directa al ordenador o servidor y todas las comunicaciones pasan a través de él. Todos los equipos están conectados por separado al llamado “centro de comunicaciones” o “concentrador” (hub), pero no están conectados entre sí. Más facilidad de supervisión de la información porque los mensajes deben pasar necesariamente por el hub, el cual puede gestionar la distribución de la información entre los demás equipos."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Modelo TCP/IP",
+    "definicion": "Protocolo de Control de Transmisiones/Protocolo Internet (Transmision Control Protocol/Internet Protocol) es un conjunto de protocolos de comunicaciones cuya función es intercomunicar sistemas diferentes."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Telnet",
+    "definicion": "Protocolo de comunicaciones para permitir al usuario de un ordenador que posea una conexión a Internet establecer una sesión como terminal remoto de otro sistema de la Red."
+  },
+
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Ftp (File Transfer Protocol)",
+    "definicion": "Protocolo que se utiliza en internet para la transferencia de archivos. El protocolo debe asegurar que el archivo es transmitido sin errores."
+  },
+
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Smtp (Simple Message Transfer Protocol)",
+    "definicion": "Función de transmitir correo electrónico. Es totalmente transparente para el usuario."
+  },
+
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Kerberos",
+    "definicion": "Protocolo de seguridad que utiliza una herramienta llamada servidor de autenticidad para validar los esquemas de encriptado y las contraseñas."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Dns (Domain Name Service)",
+    "definicion": "Protocolo para permitir a un ordenador que posea un nombre común convertirse en una dirección especial."
+  },
+
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Snmp (Simple Network Manager Protocol)",
+    "definicion": "Muestra mensajes de cola y también reporta problemas a través de una red hacia el administrador, utilizando UDP como medio de transporte."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Rpc (Remote Procedure Call)",
+    "definicion": "Conjunto de funciones que dan el acceso a una aplicación para comunicarse con otra máquina."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Nfs (Network File System)",
+    "definicion": "Conjunto de protocolos desarrollados para permitir a múltiples maquinas tener acceso a las direcciones de cada una de las otras de manera una transparente."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Tftp (Trivial Ftp)",
+    "definicion": "Protocolo de transferencia de archivos sin seguridad. Es igual en ejecución de tareas que FTP pero con la diferencia de usar UDP como protocolo de transporte."
+  },
+  {
+    "asignatura": "Sistemas informáticos",
+    "unidad": "1",
+    "concepto": "Tcp",
+    "definicion": "Protocolo de comunicación para proporcionar una transferencia segura de datos. Este se encarga de montar los datos pasados de aplicaciones de capas superiores hacia paquetes estándar y asegurar que los datos se transfieran en forma segura."
   }
 ]
