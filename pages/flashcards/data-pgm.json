@@ -1,7 +1,308 @@
 [
   {
     "asignatura": "Programación",
+    "unidad": "1",
     "concepto": "Algoritmo",
-    "definicion": "Es un procedimiento a seguir que da respuesta a un problema, definiendo qué acciones debe ejecutar y el orden en el que deben efectuarse."
+    "definicion": "Es un procedimiento a seguir que da respuesta a un problema, definiendo qué acciones debe ejecutar y el orden en el que deben efectuarse. Se puede construir independientemente del lenguaje de programación."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Características de un algoritmo",
+    "definicion": "1. Robustez y flexibilidad: contempla todas las posibles facetas del problema a resolver y es flexible a cambios. 2. Correcto y eficiente: da una solución al problema y cumple con todos los requerimientos especificados con el menor código posible. 3. Completitud: cuenta con todos los recursos para llegar a una buena solución."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Seudocódigo",
+    "definicion": "Es un lenguaje formal que es utilizado para razonar un problema y desarrollar un algoritmo antes de codificarlo."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Diagrama de flujo",
+    "definicion": "Es una representación gráfica de un algoritmo que ayuda en la comprensión de la operación de las estructuras de control."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Elementos del diagrama de flujo",
+    "definicion": "1. Terminal: inicio y fin del programa. 2. Proceso: acciones. 3. Decisión: operaciones lógicas y comparativas. 4. Entrada/salida: muestra datos y resultados. 5. Conector: enlaza dos partes del programa. 6. Línea de flujo."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Programación desordenada",
+    "definicion": "Es la programación del código a través de la lógica del programador por encima del uso de cualquier método, lo que provoca que su corrección y entendimiento sea casi ininteligible."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Programación estructurada",
+    "definicion": "Programacón en la que todas las estructuras tienen un único punto de entrada y un único punto de salida. Esto permite descomponer fácilmente un problema en subproblemas, reduciendo la complejidad y facilitando la programación. Sólo permiten utilizar tres estructuras de control: secuenciales (instrucciones generadas una detrás de otra), alterntivas (sentencias de salto), iterativas (sentencias condicionales). Es más legible y se puede corregir con más facilidad."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Programación modular",
+    "definicion": "Completa la programación estructurada, formada por módulos independientes que se encargan de una tarea del programa y finalmente se integran. Cada módulo se puede invocar en cualquier parte del programa y no dependen del resto del programa."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Programación orientada a objetos (P.O.O.)",
+    "definicion": "Se basa en intentar que el código de los programas se parezca lo más posible a la forma de pensar de las personas, una serie de objetos (con datos y métodos propios) que se comunican entre sí. La más usada actualmente."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Java",
+    "definicion": "Lenguaje orientado a objetos, con amplio conjunto de bibliotecas, sencillo de aprender, de tipo distribuido, interpretado (los bytecodes se pueden ejecutar directamente sobre cualquier equipo con máquina virtual Java, multiplataforma) y compilado (el código fuente se transforma en bytecodes) a la vez."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "C++",
+    "definicion": "Lenguaje de programación orientado a objetos y multiparadigma, que toma la base del lenguaje C, versátil, potente y general."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Python",
+    "definicion": "Lenguaje de programación interpretado, orientado a objetos, multiplataforma y de sintaxis sencilla. Permite dividir su programa en módulos reutilizables desde otros programas."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "PHP",
+    "definicion": "Lenguaje multiplataforma, orientado al desarrollo de aplicaciones web dinámicas con acceso a información almacenada en una Base de Datos (MySQL y PostgreSQL) con amplia biblioteca nativa de funciones. Gratuito, portable, consume pocos recursos y tiene el código fuente abierto."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Entorno de desarrollo integrado(IDE)",
+    "definicion": "Es un entorno de programación empaquetado como un programa de aplicación con diversos componentes, como un editor de código, un compilador, un depurador o un constructor de interfaz gráfica (GUI), con el que desarrollamos los programas."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Eclipse",
+    "definicion": "IDE para C++, Java, PHP, JSP y Perl, de código abierto y multiplataforma."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "NetBeans",
+    "definicion": "IDE para Java, PHP y C++, pertenece a Oracle y es de código abierto."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "IntelliJ IDEA",
+    "definicion": "IDE para Java, Groovy y Scala, desarrollado por JetBrains."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "BlueJ",
+    "definicion": "IDE para Java, creado por la universidad de Kent, orientado a la enseñanza de la programación orientada a objetos."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Android Studio",
+    "definicion": "IDE para Java, Kotlin y C++, creado por Google para desarrollo en la plataforma Android."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "XCode",
+    "definicion": "IDE para MacOS, lenguajes C, C++ Objetive C, Swift, Java y Apple-Script, desarrollado por Apple Incluye la colección de compiladores de GNU GCC."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Java: sentencia import",
+    "definicion": "Se utiliza para incluir cualquier clase Java que esté en un paquete externo al nuestro."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Java: función main",
+    "definicion": "Es la función que se llama primero al ejecutarse el programa en Java."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Identificador",
+    "definicion": "Es una secuencia de uno o más caracteres asignada por el programador a un elemento del programa como una constante, una variable, un paquete, un método o una clase. Cada lenguaje tiene sus propias reglas."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Nomenclatura en Java",
+    "definicion": "1. Para paquetes se utilizan minúsculas (paquete). 2. En una jerarquía de paquetes, se separan con un punto (padre.hijo) 3. Clases e interfaces se utiliza UpperCamelCase (Vehiculo). 4. Variables y métodos se utiliza lowerCamelCase (arrancarCoche). 5. Constantes se utiliza SCREAMING_SNAKE_CASE (NUMERO_RUEDAS_COCHE)"
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Palabras reservadas",
+    "definicion": "Palabras que no se pueden utilizar como identificadores debido a que sirven para indicar al computador que realice una tarea muy determinada y tienen un significado especial para el compilador."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Tipo de dato",
+    "definicion": "Un conjunto de valores y un conjunto de operaciones que pueden aplicarse a estos valores."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Tipos de datos primitivos en Java",
+    "definicion": "Enteros: 1. byte (-128..127). 2. short (-32768..32767). 3. int (-2elevado31..2elevado31-1). 4. long (-2elevado63..2elevado63-1). Decimales: float (Punto flotante 32 bits) y double (Punto flotante 64 bits). Char: carácter simple. Boolean."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Casting",
+    "definicion": "Consiste en transferir valores de una variable a otra de distinto tipo, evitando la pérdida de información siempre que se pueda (desde variables que ocupen menos bytes a otras que ocupen más)."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Conversión implícita",
+    "definicion": "Se realizan de forma automática al realizar alguna asignación (ej, byte c=1; short s=c;)."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Conversión explícita",
+    "definicion": "Se realizan anteponiendo el tipo de dato al que convertir antes de la variable origen (ej, int i=65; byte d=(byte)i;)."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Clase String",
+    "definicion": "Contiene los métodos (o funciones) necesarios para manipular cadenas de caracteres de manera cómoda, sin necesidad de implementar nuestros propios métodos (ej. String nombre = ”Alfonso X El Sabio”)."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Clase wrapper",
+    "definicion": "Crea objetos que contienen un dato primitivo, y provee de métodos que facilitan su manejo, incluidas conversiones desde otros tipos de datos. Comienza con mayúscula (ej. Integer entero=3;)"
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Variable",
+    "definicion": "Es un espacio reservado de memoria (RAM) en el ordenador para contener valores que pueden cambiar durante la ejecución de un programa. Los tipos determinan cómo se manipulará la información contenida en esas variables."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Constante",
+    "definicion": "Es un valor que no varía durante la ejecución del programa. Puede ser numérica, carácter o cadena de caracteres. Se declaran con static final (ej. static final int DIAS_SEMANA = 7;)."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Secuencia de escape",
+    "definicion": "Hace que el carácter que sigue se trate bien como ese mismo carácter o como un carácter especial."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Operadores",
+    "definicion": "Son signos especiales que indican determinadas operaciones a realizar con las variables y/o constantes sobre las que actúan en el programa."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Tipos de operadores",
+    "definicion": " 1. Aritméticos (+ - * / %). 2. De asignación (+= -= ++ -- *= /=). 3. Relacionales (== < > <= >= !=). 4. Lógicos (&& || !)."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Precedencia de operadores",
+    "definicion": "Indica el orden en que han de evaluarse dentro de una expresión. Aquellos con mayor nivel de precedencia son evaluados antes que los que tengan un menor nivel."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Comentarios",
+    "definicion": "Son textos que pueden incluirse junto al código fuente para explicar su funcionamiento o documentarlo. Son ignorados por el compilador (1 línea // varias líneas /* */ de documentación /** */."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Sentencias de control",
+    "definicion": "Son aquellas instrucciones de código que han de ejecutarse. Son las sentencias condicionales, sentencias repetitivas (bucles) y sentencias de salto."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Bloque de sentencias",
+    "definicion": "Es un conjunto de instrucciones englobadas bajo llaves { } y se utiliza para agrupar un conjunto de sentencias dentro de un ámbito concreto dentro del programa."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Sentencias condicionales",
+    "definicion": "Son aquellas en las que se evalúa una condición y, en función del resultado (cierto o falso), se ejecuta una sentencia o bloque de sentencias u otra sentencia o bloque de sentencias (if, else, else if)."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Sentencia Switch",
+    "definicion": "Sentencia que se utiliza cuando el valor de una expresión, que puede tener múltiples posibles valores, determina qué sentencias serán ejecutadas. Se utiliza break al final del bloque de sentencias que se haya ejecutado. Default se ejecuta en caso de que ninguna de las alternativas del switch tenga un valor que coincida con el resultado de evaluar la expresión del selector."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Sentencias repetitivas",
+    "definicion": "Son aquellas que ejecutan un determinado bloque de código un número de veces determinado por las condiciones que establezcamos."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Bucle For",
+    "definicion": "Se usa para definir la ejecución repetitiva de sentencias en función del valor de una o más variables (de control) y de las condiciones que establezcamos, que habitualmente incluyen dichas variables. Estas toman un valor inicial y se incrementan o decrementan en cada iteración del bucle hasta llegar a un valor final, que suele ser la condición de fin del bucle -> for (inicialización; finalización; incremento/decremento) {instrucciones;};."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Bucle While",
+    "definicion": "Se usa para definir un ciclo en el que la condición para terminar el bloque de sentencias o instrucciones se evalúa al principio de este -> while (condición) {instrucciones;};."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Bucle do while",
+    "definicion": "Se usa para definir un ciclo en el que la condición de terminación se evaluará al final de este -> do {instrucciones;} while (condición);."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Sentencias de salto",
+    "definicion": "Son aquellas que rompen abruptamente la secuencia de ejecución de un programa: break, return y continue. Hay que usarlas solo en caso necesario."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Sentencia break",
+    "definicion": "Se usa para interrumpir la ejecución normal de un bucle, es decir, la instrucción break finaliza la ejecución de un bucle y, por tanto, el control del programa salta a la primera instrucción después del bucle."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Sentencia return",
+    "definicion": "Se utiliza para salir de una función o procedimiento, volviendo al punto en el cual se llamó a dicha función o procedimiento. En el código, sólo debe que aparecer una vez en cada función o procedimiento, al final de este."
+  },
+  {
+    "asignatura": "Programación",
+    "unidad": "1",
+    "concepto": "Sentencia continue",
+    "definicion": "Se usa para interrumpir la ejecución normal de un bucle pero el control del programa no se transfiere a la primera instrucción después del bucle, el bucle no finaliza, sino que finaliza la iteración en curso, transfiriéndose el control del programa a la condición de incremento de contadores y después a la condición de salida del bucle."
   }
 ]
