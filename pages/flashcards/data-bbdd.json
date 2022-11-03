@@ -1,12 +1,206 @@
 [
   {
     "asignatura": "Bases de datos",
+    "unidad": "1",
     "concepto": "Base de datos",
     "definicion": "Es un conjunto de datos que pertenecen a un mismo contexto (o problema), almacenados sistemáticamente para su posterior uso."
   },
   {
     "asignatura": "Bases de datos",
+    "unidad": "1",
     "concepto": "Sistema de información",
-    "definicion": "Es un conjunto de elementos destinados al tratamiento y la administración de datos e información, organizados y listos para su posterior uso, generados para cubrir una necesidad(objetivo)."
+    "definicion": "Cualquier herramienta o conjunto de ellas que permitan almacenar y gestionar los datos de interés para una determinada organización, con el fin de dar soporte a la operación cotidiana de esta."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": "Elementos de un sistema de información",
+    "definicion": "1. Datos: información que se almacena y gestiona. 2. Recursos físicos: Carpetas, documentos, equipamiento, discos... 3. Recursos humanos: Personal que maneja la información. 4. Protocolo: Normas que debe cumplir la información para ser manejada."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": "Sistema orientados a proceso",
+    "definicion": "Sistema en el que los elementos de información se tratan de manera completamente independiente, lo que da lugar a que sus almacenes de datos, archivos o ficheros, se mantengan separados aunque contengan elementos comunes. Los datos terminan replicándose causando incoherencias e inconsistencias de la información. Cada uno de los programas o procesos utiliza sus propios datos y se encarga también de almacenarlos."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": "Inconvenientes de los sistemas orientados a proceso",
+    "definicion": "1. Más difícil gestionar la seguridad. 2. Datos inconsistentes. 3. Coste del almacenamiento. 4. Datos redundantes. 5. Dificultad para acceder a los datos si es una consulta no prevista en uno de los programas."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": "Sistema orientados a datos",
+    "definicion": "Sistema en el que existe un repositorio común de información compartido por todas las aplicaciones. Los datos se almacenan en esa base de datos y todas las aplicaciones acceden a los mismos datos. Si son modificados por una aplicación, dichos cambios quedan también para el resto de aplicaciones."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
+    "concepto": " ",
+    "definicion": " ."
   }
 ]
