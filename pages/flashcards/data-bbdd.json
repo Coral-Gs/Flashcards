@@ -2,12 +2,6 @@
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": "Base de datos",
-    "definicion": "Es un conjunto de datos que pertenecen a un mismo contexto (o problema), almacenados sistemáticamente para su posterior uso."
-  },
-  {
-    "asignatura": "Bases de datos",
-    "unidad": "1",
     "concepto": "Sistema de información",
     "definicion": "Cualquier herramienta o conjunto de ellas que permitan almacenar y gestionar los datos de interés para una determinada organización, con el fin de dar soporte a la operación cotidiana de esta."
   },
@@ -32,91 +26,97 @@
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
+    "concepto": "Ventaja de los sistemas orientados a proceso",
+    "definicion": "Cada proceso es independiente lo que significa que si modificamos uno no afecta a los otros."
+  },
+  {
+    "asignatura": "Bases de datos",
+    "unidad": "1",
     "concepto": "Sistema orientados a datos",
     "definicion": "Sistema en el que existe un repositorio común de información compartido por todas las aplicaciones. Los datos se almacenan en esa base de datos y todas las aplicaciones acceden a los mismos datos. Si son modificados por una aplicación, dichos cambios quedan también para el resto de aplicaciones."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Inconvenientes de los sistemas orientados a datos",
+    "definicion": "1. La implantación es más larga. 2. La instalación es más costosa. 3. Escasa estandarización."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Ventajas de los sistemas orientados a datos",
+    "definicion": "1. El acceso a los datos es más eficaz. 2. Hay mayor independencia entre los datos, los programas y los procesos. 3. Menor redundancia. 4. Hay más información sobre los datos."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Archivos",
+    "definicion": "Son elementos de carácter lógico que nos ofrece el sistema operativo. Contienen datos que guardan algún tipo de relación o forman parte de una misma unidad de información (un documento, una imagen, etc.). El formato y el tipo de archivo determina la forma de manipular la información que almacena."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "RAM",
+    "definicion": "Es la memoria principal del sistema, que resulta directamente accesible al procesador. La información contenida en el resto de sistemas de almacenamiento (memoria secundaria) tiene que ser cargada primero en RAM antes de poder ser accedida."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Clasificación de ficheros",
+    "definicion": "1. Según su contenido (texto o binario). 2. Según su organización (secuencial, directa o indexada). 3. Según su utilidad (maestros, históricos, movimientos)."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Base de datos",
+    "definicion": "Es un conjunto de datos sin repetición de la información y con una estructura que refleja la organización de los elementos representados. Los datos pertenecen a un mismo contexto (o problema) y están almacenados sistemáticamente para su posterior uso."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Características de una base de datos",
+    "definicion": "1. Independencia con respecto a los programas y aplicaciones que hagan uso de los datos. 2. Posibilidad de compartición y acceso concurrente a la información. 3. Contienen metadatos o información sobre los propios datos."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Nivel de usuario o nivel externo",
+    "definicion": "Es la visión que tiene de la base de datos cada usuario particular. En este nivel se reflejan las relaciones y datos de interés para cada usuario particular por lo que existirán tantos esquemas externos como aplicaciones que hagan uso de los datos."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Nivel conceptual",
+    "definicion": "Describe todos los datos de interés para la organización, las asociaciones entre ellos y sus requerimientos en materia de seguridad, independientemente de las aplicaciones, usuarios y el ssggbbdd que se vaya a utilizar (ej. modelo entidad-relación)."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Nivel interno",
+    "definicion": "Corresponde al esquema que describe la forma en los datos que se representan de manera lógica y también como se organizan para su almacenamiento físico (ej. modelo dee bbdd relacional)."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Esquema de una base de datos",
+    "definicion": "Describe su estructura en términos de elementos y organización."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Lenguaje Unificado de Modelado (UML)",
+    "definicion": "Es un lenguaje gráfico para representar partes de un sistema."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
-    "definicion": " ."
+    "concepto": "Componentes de una base de datos",
+    "definicion": "1. Dato. 2. Tipo de dato. 3. Campo (Columna). 4.Registro (Fila). 5. Campo Clave. 6. Tabla. 7. Consulta. 8. Índice. 9. Vista. 10. Informe. 11. Guiones. 12. Procedimientos."
   },
   {
     "asignatura": "Bases de datos",
     "unidad": "1",
-    "concepto": " ",
+    "concepto": "Dato",
     "definicion": " ."
   },
   {
